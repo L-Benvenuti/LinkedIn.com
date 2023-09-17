@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav div.links,
+nav div.links ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+nav div.links li {
+    list-style: none;
+}

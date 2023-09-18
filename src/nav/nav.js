@@ -1,9 +1,13 @@
+import Logo from './LinkedOut.png';
+
 export const navBar = function () {
   const nav = document.querySelector('nav');
 
+  const linkedOut = new Image();
+  linkedOut.src = Logo;
   const logo = document.createElement('div');
   logo.classList = 'linked-out';
-  logo.innerText = 'LinkedOut';
+  logo.appendChild(linkedOut);
 
   nav.append(
     logo,

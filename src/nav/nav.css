@@ -4,6 +4,10 @@ nav {
     justify-content: space-around;
 }
 
+nav .linked-out img {
+    width: 40%;
+}
+
 nav div.links,
 nav div.links ul {
     display: flex;

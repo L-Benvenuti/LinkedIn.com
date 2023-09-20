@@ -1,0 +1,13 @@
+
+h1.title {
+    font-weight: lighter;
+    margin-top: 0.5em;    
+}
+
+div.exp-card {
+    display: flex;
+}
+
+img.exp-img {
+    
+}

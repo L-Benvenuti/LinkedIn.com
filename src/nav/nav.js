@@ -42,15 +42,16 @@ const rightSideNav = function () {
 
   const allBtns = document.createElement('ul');
 
-  const joinBtn = document.createElement('li');
-  joinBtn.innerText = 'Join Now';
+  const darkMode = document.createElement('li');
+  darkMode.classList = 'dark-light';
+  darkMode.innerText = 'Dark Mode';
 
-  const signInBtn = document.createElement('li');
-  signInBtn.innerText = 'Sign In';
+  const realLinkedIn = document.createElement('li');
+  realLinkedIn.innerText = 'LinkedIn';
 
   allBtns.append(
-    joinBtn,
-    signInBtn,
+    darkMode,
+    realLinkedIn,
   );
 
   links.append(

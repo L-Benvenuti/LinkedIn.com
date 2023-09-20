@@ -1,4 +1,15 @@
 main {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.3em;
+    margin: 1em 2.5em;
+}
+
+main div.left {
+    flex: 3;
+}
+
+main div.right {
+    flex: 1;
 }

@@ -1,6 +1,6 @@
 import './topProfile.css';
 import Pic from './imgs/profilePic.png';
-import UNL from './imgs/UNL.png';
+import UNL from './imgs/UNL.jpeg';
 import TOP from './imgs/TOP.png';
 import Connections from './imgs/connections.png';
 

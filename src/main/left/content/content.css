@@ -1,13 +1,29 @@
 
 h1.title {
     font-weight: lighter;
-    margin-top: 0.5em;    
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;    
 }
 
-div.exp-card {
+/* experiences + education section */
+div.card {
     display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
 }
 
-img.exp-img {
-    
+div.left-cont {
+    width: 3.5em;
+    flex-shrink: 0.5;
+    min-width: 2em;
+}
+
+img.logo {
+    width: 100%;
+}
+
+/* language section */
+div.lang-card {
+    display: flex;
+    justify-content: space-between;
 }

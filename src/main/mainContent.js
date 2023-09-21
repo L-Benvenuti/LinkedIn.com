@@ -1,5 +1,7 @@
 import { profile } from './left/topProfile/topProfile';
-import { about, experiences } from './left/content/content';
+import {
+  about, experiences, languages, education,
+} from './left/content/content';
 
 export const mainContent = function () {
   const main = document.querySelector('main');
@@ -18,6 +20,8 @@ const leftColumn = function () {
     profile(),
     about(),
     experiences(),
+    education(),
+    languages(),
   );
 
   return left;

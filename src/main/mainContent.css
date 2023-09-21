@@ -8,6 +8,7 @@ main {
 
 main div.left {
     flex: 3;
+    width: 50%;
 }
 
 main div.right {

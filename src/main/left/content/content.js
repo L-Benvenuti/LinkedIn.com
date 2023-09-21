@@ -1,7 +1,7 @@
 import './content.css';
 import { Exp, Ed } from './createNewItem';
-import UNL from '../topProfile/imgs/UNL.jpeg';
-import TOP from '../topProfile/imgs/TOP.png';
+import UNL from '../imgs/UNL.jpeg';
+import TOP from '../imgs/TOP.png';
 
 export const about = function () {
   const aboutContent = document.createElement('div');

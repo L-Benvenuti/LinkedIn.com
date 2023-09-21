@@ -26,4 +26,5 @@ img.logo {
 div.lang-card {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

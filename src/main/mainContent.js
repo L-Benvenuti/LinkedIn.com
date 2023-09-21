@@ -32,7 +32,14 @@ const rightColumn = function () {
   const right = document.createElement('div');
   right.classList = 'right';
 
-  right.innerText = 'RIGHT COLUMN';
+  const portfolio = document.createElement('button');
+  portfolio.innerText = 'Portfolio';
+  portfolio.classList = 'portfolio';
+  portfolio.href = '#';
+
+  right.append(
+    portfolio,
+  );
 
   return right;
 };

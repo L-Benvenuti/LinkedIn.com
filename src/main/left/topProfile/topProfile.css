@@ -5,7 +5,7 @@ div.profile-container {
 
 /* banner */
 div.banner-container {
-    background-image: url('./imgs/bkground.jpg');
+    background-image: url('../imgs/bkground.jpg');
     background-size: cover;
     height: 10em;
     border-radius: 10px 10px 0 0;

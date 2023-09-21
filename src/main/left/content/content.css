@@ -25,6 +25,7 @@ img.logo {
 /* language section */
 div.lang-card {
     display: flex;
-    justify-content: space-between;
+    gap: 7em;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }

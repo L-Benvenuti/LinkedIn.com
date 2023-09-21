@@ -2,15 +2,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.3em;
+    gap: 1.5em;
     margin: 1em 2.5em;
 }
 
 main div.left {
     flex: 3;
-    width: 50%;
+    max-width: 50em;
+    min-width: 25em;
 }
 
 main div.right {
     flex: 1;
+    max-width: 25em;
 }

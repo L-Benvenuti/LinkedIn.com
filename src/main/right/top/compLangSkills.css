@@ -6,4 +6,5 @@ div.right div.skill-card {
 
 div.right img.skill-img {
     width: 2em;
+    border-radius: 50%;
 }

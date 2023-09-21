@@ -1,0 +1,9 @@
+div.right div.skill-card {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+div.right img.skill-img {
+    width: 2em;
+}

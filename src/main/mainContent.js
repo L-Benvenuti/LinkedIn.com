@@ -2,6 +2,7 @@ import { profile } from './left/topProfile/topProfile';
 import {
   about, experiences, languages, education,
 } from './left/content/content';
+import { skills } from './right/top/compLangSkills';
 
 export const mainContent = function () {
   const main = document.querySelector('main');
@@ -39,6 +40,7 @@ const rightColumn = function () {
 
   right.append(
     portfolio,
+    skills(),
   );
 
   return right;
